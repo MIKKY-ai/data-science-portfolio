@@ -1,0 +1,41 @@
+/* Hero.css */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Roboto:wght@700&display=swap');
+
+:root {
+  --main-bg-color: #1a1a2e;
+  --text-color: #ffffff;
+  --accent-color: #0f3460;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  text-align: center;
+  padding: 2rem;
+  background: url('https://www.solidbackgrounds.com/images/3840x2160/3840x2160-black-solid-color-background.jpg') center center/cover no-repeat;
+  color: var(--text-color);
+}
+
+.hero {
+  z-index: 1;
+  position: relative;
+}
+
+.hero-text {
+  max-width: 800px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  color: var(--text-color);
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  color: var(--text-color);
+}
